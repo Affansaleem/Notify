@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    android:paddingBottom="11dp"
+
+    android:paddingRight="21dp"
+    android:paddingLeft="11dp">
+    <TextView
+        android:id="@+id/tvShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Notes"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter title"
+        />
+
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Notes"
+         />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit" />
+
+</LinearLayout>
